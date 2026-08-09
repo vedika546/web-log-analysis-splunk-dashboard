@@ -136,5 +136,5 @@ web-log-analysis-splunk-dashboard/
 
 This project was created for educational and cybersecurity lab purposes using sample Apache web log data. No production or confidential logs are included.
 
-
+## Skills Demonstrated
 `Splunk` `SPL` `Log Analysis` `Web Traffic Analysis` `HTTP Monitoring` `IP Analysis` `Threat Hunting` `Security Monitoring` `Dashboard Development`
