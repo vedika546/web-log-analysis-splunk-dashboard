@@ -44,7 +44,7 @@ Example SPL:
 source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json"
 | stats count AS "Total Web Requests"
 ```
-![Dashboard Overview](dashboard-overview.png)
+![Dashboard Overview](screenshots/dashboard-overview.png)
 
 ### 2. Web Statistics
 
@@ -66,7 +66,7 @@ Client IP analysis:
 source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json"
 | stats count AS IP by ip
 ```
-![Web Statistics](web-statistics.png)
+![Web Statistics](screenshots/web-statistics.png)
 
 
 ### 3. Geographic Web Traffic Analysis
@@ -80,8 +80,7 @@ source="apache_mixed_access_full (1).json" host="webserver" sourcetype="_json" m
 | stats count by Country
 | geom geo_countries featureIdField="Country"
 ```
-![Geographic Web Traffic](geographic-traffic.png)
-## Dashboard Features
+![Geographic Web Traffic](screenshots/geographic-traffic.png)## Dashboard Features
 
 * Interactive time-range selection
 * Single-value security metrics
